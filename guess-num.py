@@ -1,5 +1,9 @@
 import random
-r = random.randint(1,100)
+start = input('請選擇開始範圍: ')
+end = input('請選擇結束範圍: ')
+start = int(start)
+end = int(end)
+r = random.randint(start,end)
 count = 0
 while True :
 	count += 1
